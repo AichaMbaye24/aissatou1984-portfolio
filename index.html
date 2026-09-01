@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aissatou Diallo MBAYE | Oracle DBA & Security Expert</title>
+
+<link relonts.googleapis.com
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet2563eb;
+--secondary:#0f172a;
+--card:#1e293b;
+--text:#f8fafc;
+--accent:#38bdf8;
+--success:#10b981;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:var(--secondary);
+color:var(--text);
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+background:rgba(15,23,42,.95);
+backdrop-filter:blur(10px);
+z-index:999;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+color:var(--accent);
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--accent);
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 8%;
+}
+
+.hero-text{
+max-width:650px;
+}
+
+.hero-text h1{
+font-size:65px;
+margin-bottom:10px;
+}
+
+.hero-text h2{
+color:var(--accent);
+margin-bottom:25px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.hero-img img{
+width:320px;
+height:320px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid var(--accent);
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+margin-right:15px;
+margin-top:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-primary{
+background:var(--accent);
+color:black;
+}
+
+.btn-primary:hover{
+transform:translateY(-3px);
+}
+
+.btn-dark{
+background:transparent;
+border:2px solid white;
+color:white;
+}
+
+section{
+padding:100px 8%;
+}
+
+.section-title{
+font-size:40px;
+margin-bottom:40px;
+text-align:center;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+line-height:2;
+font-size:18px;
+}
+
+.skills-grid,
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:var(--card);
+padding:30px;
+border-radius:20px;
+transition:.4s;
+box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:var(--accent);
+margin-bottom:15px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.stat{
+background:var(--card);
+padding:30px;
+text-align:center;
+border-radius:20px;
+}
+
+.number{
+font-size:50px;
+font-weight:700;
+color:var(--success);
+}
+
+.timeline{
+max-width:900px;
+margin:auto;
+}
+
+.timeline-item{
+background:var(--card);
+margin-bottom:20px;
+padding:25px;
+border-radius:15px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:var(--accent);
+text-decoration:none;
+}
+
+footer{
+background:#020617;
+padding:30px;
+text-align:center;
+}
+
+.fade{
+opacity:0;
+transform:translateY(30px);
+transition:1s;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
+@media(max-width:950px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:42px;
+}
+
+.hero-img img{
+width:250px;
+height:250px;
+margin-bottom:30px;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Aissatou DBA</div>
+
+<ul>
+<li><a href="#about">À propos</a></li>
+<li><a href="#skills">Compétences</a></ts</a></li>
+<li><a hrefenceExpérience</a></li>
+<li><a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Aissatou Diallo MBAYE</h1>
+
+<h2>Oracle DBA | Database Security Specialist | Power Automate Developer</h2>
+
+<p>
+
+J'accompagne les institutions financières dans la sécurisation,
+l'automatisation et l'optimisation des plateformes Oracle critiques.
+
+Spécialisée en Oracle Database, Data Guard,
+Audit Vault, Database Vault et gouvernance des accès.
+
+</p>
+
+<a hreftsVoir mes projets</a>
+
+<a href="CV_Aissatou_Diallo_Mbaye.pdf"er mon CV
+</a>
+
+</div>
+
+<div class="hero-img">
+
+<img src="profile.jpg" alt="Aissatou Dial id="about">
+
+<h2 class="section-title fade">À propos</h2>
+
+<div class="about fade">
+
+Administratrice Oracle DBA évoluant dans le secteur bancaire.
+
+Mon expertise couvre l'administration Oracle,
+la haute disponibilité des bases de données,
+la cybersécurité,
+les audits techniques,
+ainsi que l'automatisation des processus via Power Automate.
+
+Je contribue quotidiennement à garantir la disponibilité,
+la sécurité et la performance des systèmes critiques.
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title fade">Chiffres Clés</h2>
+
+<div class="stats">
+
+<div class="stat fade">
+<div class="number">19c</div>
+Oracle Database
+</div>
+
+<div class="stat fade">
+<div class="number">24/7</div>
+Support Production
+</div>
+
+<div class="stat fade">
+<div class="number">100%</div>
+Automatisation
+</div>
+
+<div class="stat fade">
+<div class="number">∞</div>
+Passion Data
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title fade">Compétences</h2>
+
+<div class="skills-grid">
+
+<div class="card fade">
+<h3>Oracle Database</h3>
+<p>Oracle 11g, 12c, 19c, RMAN, ASM, Data Pump, SQL Tuning.</p>
+</div>
+
+<div class="card fade">
+<h3>Data Guard</h3>
+<p>Standby Databases, Switchover, Failover, Disaster Recovery.</p>
+</div>
+
+<div class="card fade">
+<h3>Sécurité Oracle</h3>
+<p>Audit Vault, Database Vault, Gestion des privilèges.</p>
+</div>
+
+<div class="card fade">
+<h3>Power Automate</h3>
+<p>Reporting HTML, Alertes automatiques et monitoring.</p>
+</div>
+
+<div class="card fade">
+<h3>Linux</h3>
+<p>Administration Linux, Shell scripting et supervision.</p>
+</div>
+
+<div class="card fade">
+<h3>SQL & PL/SQL</h3>
+<p>Optimisation, reporting bancaire et automatisation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title fade">Réalisations</h2>
+
+<div class="projects-grid">
+
+<div class="card fade">
+<h3>Oracle Alert Analyzer</h3>
+<p>
+Analyse automatisée des Alert Logs Oracle,
+score de santé et tableaux de bord DSI.
+</p>
+</div>
+
+<div class="card fade">
+<h3>Audit Vault Reporting</h3>
+<p>
+Rapports automatiques de sécurité,
+échecs de connexion,
+comptes sensibles et activités privilégiées.
+</p>
+</div>
+
+<div class="card fade">
+<h3>Data Guard Monitoring</h3>
+<p>
+Surveillance automatique de l'Apply Lag,
+Transport Lag et synchronisation.
+</p>
+</div>
+
+<div class="card fade">
+<h3>Executive Dashboard</h3>
+<p>
+Reporting exécutif destiné à la DSI
+avec indicateurs de disponibilité Oracle.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2 class="section-title fade">Expérience Professionnelle</h2>
+
+<div class="timeline">
+
+<div class="timeline-item fade">
+<h3>Oracle DBA</h3>
+
+<p>
+
+Administration des bases Oracle critiques,
+gestion des incidents majeurs,
+sauvegardes RMAN,
+Data Guard,
+sécurité et support production.
+
+</p>
+
+</div>
+
+<div class="timeline-item fade">
+<h3>Automatisation & Reporting</h3>
+
+<p>
+
+Conception de workflows Power Automate,
+rapports HTML,
+consolidation de données
+et tableaux de bord décisionnels.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title fade">Contact</h2>
+
+<div class="contact fade">
+
+<p>📍 Dakar, Sénégal</p>
+
+<p>📧 votre.email@domaine.com</p>
+
+<p>📞 +221 XX XXX XX XX</p>
+
+<p>
+<ainkedIn</a>
+|
+<a href="#">GitHub</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Aissatou Diallo MBAYE
+|
+Oracle DBA & Database Security Expert
+</p>
+
+</footer>
+
+<script>
+
+const elements = document.querySelectorAll(".fade");
+
+const observer = new IntersectionObserver(entries => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+
+});
+
+});
+
+elements.forEach(el => observer.observe(el));
+
+</script>
+
+</body>
+</html>
